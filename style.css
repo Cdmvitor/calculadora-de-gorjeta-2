@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --grean-100: #f3f9fa;
+    --grean-200: #c5e4e7;
+    --grean-300: #9ebbbd;
+    --grean-400: #7f9d9f;
+    --grean-500: #5e7a7d;
+    --grean-600: #547878;
+    --grean-700: #3d6666;
+    --grean-800: #00474b;
+    --light-green: #26c2ab;
+    --white: #ffffff;
+}
+
+
+body {
+    background-color: var(--grean-200);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-block: 2.8rem;
+}
